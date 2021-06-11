@@ -4,7 +4,7 @@ function onReady(callback) {
       window.clearInterval(intervalId);
       callback.call(this);
     }
-  }, 1000);
+  }, 2400);
 }
 
 function setVisible(selector, visible) {
@@ -14,4 +14,8 @@ function setVisible(selector, visible) {
 onReady(function() {
   setVisible('.page', true);
   setVisible('#loading', false);
+});
+
+window.addEventListener("load", function(event) {
+  console.log("All resources finished loading!");
 });

@@ -12,8 +12,8 @@ body {
   z-index: 100;
   width: 100vw;
   height: 100vh;
-  background-color: #A1D6FF;
-  background-image: url("loading-4.gif");
+  background-color: #fff;
+  background-image: url("loading.gif");
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
